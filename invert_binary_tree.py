@@ -59,5 +59,6 @@ root.right.right = TreeNode(9)
 solution = Solution()
 inverted_root = solution.invertTree(root)
 print_tree(inverted_root)
-# expected output: 9 7 6 4 3 2 1
+# expected output: [4,7,2,9,6,3,1]
+
 
